@@ -10,3 +10,6 @@ To serve the website from your PC:
 3. run the command: "python scraping.py
 
 Prior to this, you should have installed Python v3+. Make sure pyton.exe file directories are added to your PATH variables. Also install the python modules mentioned in requirements.txt, along with Selenium.
+
+An example of the results till 18-May-2020 is here:
+https://jorismeertbambrugg.wixsite.com/scraping
