@@ -58,7 +58,8 @@ def scrape_Weibo(folder,baseURL=r'https://www.weibo.com//'):
     driver = webdriver.Chrome(ChromeDriverManager().install())
     url = baseURL+folder#"https://www.weibo.com/canadagooseofficial"
     driver.get(url)
-    time.sleep(30)#wait some time to allow the script to load all javascript
+    time.sleep(20)#wait some time to allow the script to load all javascript
+    driver.get(url)#redoing it to get away from the default page is required, somethimes
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     driver.quit()
     #print(soup.prettify())#print all the html fetched

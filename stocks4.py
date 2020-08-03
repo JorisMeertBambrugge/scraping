@@ -442,7 +442,7 @@ infoList=['PG: Procter and Gamble',
 stocksDict={'code':stocksList,'info':infoList,'yearly Dividend':[]}
 
 #weekly check for opportunity to sell/buy
-stocksOfInterest=['HDG.AS','GAZ.DE']
+stocksOfInterest=['J37.SI','INTC','GFS.L','IMMO.BR','ABI.BR']
 
 sumGain=0
 for symbol in stocksOfInterest:
