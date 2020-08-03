@@ -13,3 +13,5 @@ Prior to this, you should have installed Python v3+. Make sure pyton.exe file di
 
 An example of the results till 18-May-2020 is here:
 https://jorismeertbambrugg.wixsite.com/scraping
+
+You get this by running the alternativeData .py script
